@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
+results{
+  background-color: gray
+  
+}
+
 html,
 body {
   width: 100%;

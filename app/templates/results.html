@@ -1,35 +1,30 @@
 <head>
-    <h1>Results</h1>
-    <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("https://media.istockphoto.com/photos/white-piggy-bank-on-yellow-picture-id841053770?k=6&m=841053770&s=612x612&w=0&h=egxzk5SZGQfo2m2UG4n2fYMbDna7XPj07hdAYnwIG0o=");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
+  <style>
+#example1 {
+  
+  background: url(https://media.istockphoto.com/photos/abstract-architecture-picture-id639291528?k=6&m=639291528&s=612x612&w=0&h=e3aFpgf3X54cL5e8ycFHfkw-LPS05YWCJ4nKW3HQAc4=);
   background-repeat: no-repeat;
   background-size: cover;
 }
+#results {
+  background-color: #F0F0F0  
+  
+}
+
+
 </style>
+    
+    
 </head>
-</head>
-<body>
-    
-    
-    
-    <p>Salary: ${{salary}}</p>
-    <p>State tax: ${{stateTax}}</p>
-    <p>Housing: ${{housing}}</p>
-    <p>Medical Insurance: ${{medical}}</p>
-    <h1>Money Left: ${{moneyLeft}}</h1>
+<body id="example1">
+    <div class="results" id="results">
+        <h1><center>Results</center></h1>
+        <h3><center>Salary: ${{salary}}</center></h3>
+        <h3><center>State tax: ${{stateTax}}</center></h3>
+        <h3><center>Housing: ${{housing}}</center></h3>
+        <h3><center>Medical Insurance: ${{medical}}</center></h3>
+        <h1><center>Money Left: ${{moneyLeft}}</center></h1>
+    </div>
+   
+
 </body> 
