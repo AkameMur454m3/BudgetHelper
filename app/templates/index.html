@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>New Age - Start Bootstrap Theme</title>
+  <title>Budget Helper</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Budgeting</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -41,7 +41,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+            <a class="nav-link js-scroll-trigger" href="#download">Start Today</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#features">Features</a>
@@ -65,11 +65,11 @@
         </div>
         <div class="col-lg-5 my-auto">
           <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait white">
+            <div class="">
               <div class="device">
                 <div class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="https://www.stickpng.com/assets/images/580b585b2edbce24c47b288d.png" class="img-fluid" alt="">
+                  <!--image money -->
+                  <img src="http://123getgoing.info/ro123/money.png" class="img-fluid" alt="">
                 </div>
                 <div class="button">
                   <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -86,12 +86,16 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 mx-auto">
-          <h2 class="section-heading">Get started today!</h2>
-          
-          <div class="badges">
-            <a class="badge-link" href="#"><img src="/static/img/google-play-badge.svg" alt=""></a>
-            <a class="badge-link" href="#"><img src="/static/img/app-store-badge.svg" alt=""></a>
-          </div>
+          <h2 class="section-heading">Get Started</h2>
+          <form method="POST" action="/results">
+            <input type="text" name="salary" placeholder="Yearly pay"/>
+            <input type="text" name="housing" placeholder="Monthly housing cost"/>
+            <input type="text" name="medical" placeholder="Monthly medical insurance pay"/>
+            <input type="text" name="car" placeholder="Monthly car payment"/>
+            <input type="text" name="stateTax" placeholder="Enter your state tax"/>
+            
+            <input type="submit" value="Submit"/>
+          </form>
         </div>
       </div>
     </div>
@@ -111,7 +115,7 @@
               <div class="device">
                 <div class="screen">
                   <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                  <img src="http://pngimg.com/uploads/money/money_PNG3547.png" class="img-fluid" alt="">
                 </div>
                 <div class="button">
                   <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -125,32 +129,32 @@
             <div class="row">
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="icon-screen-smartphone text-primary"></i>
-                  <h3>Device Mockups</h3>
-                  <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                  <img src="https://image.flaticon.com/icons/png/512/54/54718.png" width"200" height="200"></img>
+                  <h3>Expansion</h3>
+                  <p class="text-muted">Soon to be launch on mobile devices!</p>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="icon-camera text-primary"></i>
-                  <h3>Flexible Use</h3>
-                  <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyfa-Qto-b3L1eONpXtee5sa413NoFAtqTGbkJyptnYpskaIua" width="200" height="200"></img>
+                  <h3>Helpful</h3>
+                  <p class="text-muted">Helps you budget and save money.</p>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="icon-present text-primary"></i>
+                  <img src="http://cdn.onlinewebfonts.com/svg/download_574104.png" width="200" height="200"></img>
                   <h3>Free to Use</h3>
-                  <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                  <p class="text-muted">Free to sign up and start budgeting today!</p>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="icon-lock-open text-primary"></i>
-                  <h3>Open Source</h3>
-                  <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                  <img src="https://ui-ex.com/images/vector-lock-logo.png" width="200" height="200"></img>
+                  <h3>Closed Source</h3>
+                  <p class="text-muted">All information is kept confidential.</p>
                 </div>
               </div>
             </div>
