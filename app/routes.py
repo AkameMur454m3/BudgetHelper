@@ -15,3 +15,13 @@ def results():
     car=model.carPay(int(request.form['car']))
     stateTax=model.stateTax(int(request.form['stateTax']), int(request.form['salary']))
     return render_template("results.html",moneyLeft=moneyLeft, housing=housing, medical=medical, salary=salary, car=car, stateTax=stateTax)
+
+@app.route('/student',methods=['GET','POST'])
+def student():
+    salaryS=model.SalaryS(int(request.form['salaryS']))
+    housingS=model.calculateHousingS(int(request.form['housingS']))
+    emergencyS=model.EmergencyS(int(request.form['emergencyS']))
+    transportS=model.TransportS(int(request.form['transportS']))
+    bookS=model.BookS(int(request.form['bookS']))
+    moneyLeftS=model.calculateBudgetStudent(int(request.form['salaryS']),int(request.form['housingS']),int(request.form['emergencyS']),int(request.form['bookS']),int(request.form['transportS']))
+    return render_template("student.html",moneyLeftS=moneyLeftS, housingS=housingS, emergencyS=emergencyS, salaryS=salaryS, transportS=transportS, bookS=bookS)

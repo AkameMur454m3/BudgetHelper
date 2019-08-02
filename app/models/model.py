@@ -15,3 +15,27 @@ def carPay(car):
     
 def stateTax(stateTax, salary):
     return stateTax/100 * salary
+    
+    
+    
+    
+def calculateBudgetStudent(salaryS, bookS, housingS, emergencyS, transportS):
+    return salaryS - bookS - housingS - emergencyS - transportS
+    
+def calculateHousingS(housingS):
+    return housingS
+    
+def EmergencyS(emergency2):
+    return emergency2
+    
+def SalaryS(salaryS):
+    return salaryS
+    
+def TransportS(transportS):
+    return transportS
+    
+def BookS(bookS):
+    return bookS
+
+    
+    
